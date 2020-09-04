@@ -1,11 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+html::before{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	content: "";
+	z-index: 1;
+    height:100%;
+    width:100%;
+    box-shadow: 0px 0px 6px rgb(176, 176, 176) inset;
+    overflow:auto;
+    pointer-events: none;
+}
+body{
+    padding: 25px;
+	font-family: sans-serif;
+	z-index: 1000;
     
-</body>
+	
+}
+.screencast{
+	margin:0 auto !important;
+	width:100%; 
+	box-shadow:0px 5px 15px -5px gray;
+}
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+</style>
+
+
+</head>
+	<body>
+		<div class="container-fluid">
+				<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+				
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 py-3">
+					  <h2 class="display-5">Teste1</h2>
+					  <p class="lead">Teste do video 1</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste2.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste2</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				</div>	
+				
+				<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+				
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste3</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				</div>	
+				
+				<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+				
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste4</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste5</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste6</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-left overflow-hidden">
+					<div class="my-3 p-3">
+					  <h2 class="display-5">Teste7</h2>
+					  <p class="lead">Teste do video 2</p>
+					</div>
+					<div class="mx-auto">
+						<video src="teste.webm" class="screencast" controls="controls"></video>
+					</div>
+				  </div>
+				</div>		
+		</div>
+		
+	</body>
+
 </html>
